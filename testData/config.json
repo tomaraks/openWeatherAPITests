@@ -1,0 +1,4 @@
+{
+    "baseURL": "http://api.openweathermap.org/",
+    "authKey": "4bb4a603c26a86d79d0b5269da84c3da"
+}

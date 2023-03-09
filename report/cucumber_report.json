@@ -1,0 +1,545 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "openweathermap-forecast5-api-test-automation;retrieve-5-day-weather-forecast-for-bangalore",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Retrieve 5-day weather forecast for Bangalore",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the latitude and longitude of \"Bangalore\" are known",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162218700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the API should respond with a \"200\" status code",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 782700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "a request is made to retrieve the 5-day weather forecast",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208663800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the API should respond with a \"200\" status code",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the response should contain weather data for 5 days",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1404400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the daily forecast data should summarize 3-hour data",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1256500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the most dominant wind speed and direction should be included",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2378399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the minimum and maximum temperatures should be included",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1134500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "extract all values that should be rounded down",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 662800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "openweathermap-forecast5-api-test-automation;retrieve-5-day-weather-forecast-for-a-\"new-york\"-location",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Retrieve 5-day weather forecast for a \"New York\" location",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the latitude and longitude of \"New York\" are known",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154499099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the API should respond with a \"200\" status code",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 397599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "a request is made to retrieve the 5-day weather forecast",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222516600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the API should respond with a \"200\" status code",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the response should contain weather data for 5 days",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the daily forecast data should summarize 3-hour data",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 645499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the most dominant wind speed and direction should be included",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1029500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the minimum and maximum temperatures should be included",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "extract all values that should be rounded down",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "openweathermap-forecast5-api-test-automation;retrieve-5-day-weather-forecast-for-a-\"los-angeles\"-location",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Retrieve 5-day weather forecast for a \"Los Angeles\" location",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the latitude and longitude of \"Los Angeles\" are known",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131061700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the API should respond with a \"200\" status code",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "a request is made to retrieve the 5-day weather forecast",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194025899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the API should respond with a \"200\" status code",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the response should contain weather data for 5 days",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 537600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the daily forecast data should summarize 3-hour data",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 966899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the most dominant wind speed and direction should be included",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1658599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the minimum and maximum temperatures should be included",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 877399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "extract all values that should be rounded down",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 683299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "openweathermap-forecast5-api-test-automation;retrieve-5-day-weather-forecast-for-a-\"tokyo\"-location",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Retrieve 5-day weather forecast for a \"Tokyo\" location",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the latitude and longitude of \"Tokyo\" are known",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129117799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the API should respond with a \"200\" status code",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "a request is made to retrieve the 5-day weather forecast",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218330399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the API should respond with a \"200\" status code",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the response should contain weather data for 5 days",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the daily forecast data should summarize 3-hour data",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 780100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the most dominant wind speed and direction should be included",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1224999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the minimum and maximum temperatures should be included",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 959900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "extract all values that should be rounded down",
+            "match": {
+              "location": "src\\stepDefinitions\\openWeatherSteps.ts:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 561900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "openweathermap-forecast5-api-test-automation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OpenWeatherMap Forecast5 API Test Automation",
+    "tags": [],
+    "uri": "src\\features\\OpenWeatherAPI.feature"
+  }
+]
